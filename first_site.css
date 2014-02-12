@@ -1,0 +1,44 @@
+			header {
+				text-align: center;
+				background: url(http://i.imgur.com/RysdsaL.jpg);
+				background-size: cover;
+				font-family: Tahoma;
+				color: rgba(84, 84, 84, 1);
+			}
+			h1 {
+				font-size: 76px
+			}
+			ul {
+				padding: 10px;
+			}
+			li {
+				display: inline;
+				padding: 0px 15px 0px 15px;
+			}
+			a {
+				color: rgba(84, 84, 84, 1);
+			}
+			body {
+				background-color: rgba(84, 84, 84, 0.25);
+				font-family: Tahoma;
+			}
+			article {
+				max-width: 500px;
+				padding: 20px;
+				margin: 0 auto;
+			}
+			@media (max-width: 500px) {
+				h1 {
+					font-size: 30px;
+				}
+				li {
+					display: block;
+					padding: 5px;
+				}
+
+			}
+			@media (max-width: 1300px) {
+				a {
+					color: rgba(255, 255, 255, 1);
+				}
+			}
