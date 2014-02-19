@@ -10,6 +10,7 @@
 			}
 			ul {
 				padding: 10px;
+				margin: 0px;
 			}
 			li {
 				display: inline;
@@ -22,9 +23,21 @@
 				background-color: rgba(84, 84, 84, 0.25);
 				font-family: Tahoma;
 			}
-			article {
+			.navbar {
+				padding: 2px 0 2px 0;
+				background-color: gray;
+				margin: 0px;
+				padding: 0px;
+			}
+			.menu {
+				text-align: center;
+			}
+			.menu a {
+				color: black;
+			}
+			.container {
 				max-width: 500px;
-				padding: 20px;
+				padding: 5px;
 				margin: 0 auto;
 			}
 			@media (max-width: 500px) {
