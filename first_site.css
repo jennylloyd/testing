@@ -44,9 +44,9 @@
 			.menu a {
 				color: white;
 			}
-			.container {
-				max-width: 500px;
+			#main-site-body .container {
 				padding: 5px;
+				max-width: 500px;
 				margin: 0 auto;
 			}
 			@media (max-width: 500px) {
