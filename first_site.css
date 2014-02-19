@@ -5,6 +5,12 @@
 				font-family: Tahoma;
 				color: rgba(84, 84, 84, 1);
 			}
+			#header {
+				min-height: 450px;
+			}
+			div {
+				position: relative;
+			}
 			h1 {
 				font-size: 76px
 			}
@@ -17,23 +23,26 @@
 				padding: 0px 15px 0px 15px;
 			}
 			a {
-				color: rgba(84, 84, 84, 1);
+				color: rgba(84,84,84,1);
 			}
 			body {
-				background-color: rgba(84, 84, 84, 0.25);
+				background-color: rgba(84,84,84,0.25);
 				font-family: Tahoma;
 			}
 			.navbar {
+				position: absolute;
+  				bottom: 0;
 				padding: 2px 0 2px 0;
-				background-color: gray;
-				margin: 0px;
+				background: rgba(0,0,0,.5);
+				margin: 0 auto;
 				padding: 0px;
+				border: none;
 			}
 			.menu {
 				text-align: center;
 			}
 			.menu a {
-				color: black;
+				color: white;
 			}
 			.container {
 				max-width: 500px;
